@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yeswanth Portfolio</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Yeswanth</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero">
+
+    <img src="{{ url_for('static', filename='profile.jpg') }}"
+         alt="Yeswanth Profile"
+         class="profile">
+
+    <h1>Hi, I'm Yeswanth 👋</h1>
+
+    <h2>Python & Web Development</h2>
+
+    <p>Welcome to my personal portfolio website.</p>
+
+    <a href="{{ url_for('static', filename='resume.pdf') }}"
+       class="resume-btn"
+       download>
+        📄 Download Resume
+    </a>
+
+</section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a B.Tech CSE student interested in Python
+            and Web Development.
+        </p>
+    </section>
+
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <span>Python</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Web Development</span>
+        </div>
+    </section>
+
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>B.Tech - Computer Science Engineering</p>
+    </section>
+
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>Feel free to contact me.</p>
+
+    <div class="contact-info">
+
+        <p>📧 Email:
+            <a href="mailto:myeswanth7777@gmail.com">
+                myeswanth7777@gmail.com
+            </a>
+        </p>
+
+        <p>📱 Phone:
+            <a href="tel:9951448051">
+                9951448051
+            </a>
+        </p>
+
+    </div>
+
+    <div class="contact-form">
+
+        <form method="POST" action="https://formsubmit.co/myeswanth7777@gmail.com">
+
+    <input type="text"
+           name="name"
+           placeholder="Your Name"
+           required>
+
+    <input type="email"
+           name="email"
+           placeholder="Your Email"
+           required>
+
+    <textarea
+        name="message"
+        placeholder="Your Message"
+        rows="5"
+        required></textarea>
+
+    <button type="submit">
+        Send Message
+    </button>
+
+</form>
+
+       
+
+    </div>
+
+</section>
+
+</body>
+</html>

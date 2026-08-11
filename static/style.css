@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+}
+
+/* Navigation */
+
+nav {
+    background: #111827;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* Sections */
+
+section {
+    min-height: 70vh;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* Home */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Contact Button */
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #111827;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #374151;
+}
+.profile {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #111827;
+    margin-bottom: 25px;
+}
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 25px;
+    background: #111827;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.resume-btn:hover {
+    background: #374151;
+}
+
+.contact-form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: #111827;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #374151;
+}
