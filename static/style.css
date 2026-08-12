@@ -231,3 +231,94 @@ button:hover {
     line-height: 1.7;
     margin-bottom: 15px;
 }
+/* ===== Professional Portfolio Upgrade ===== */
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/* About Card */
+
+.about-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Skills */
+
+.skills span {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills span:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Resume Button */
+
+.resume-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Photo */
+
+.profile {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form */
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #111827;
+}
+
+/* Navigation */
+
+nav a {
+    transition: color 0.3s ease;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    .about-card {
+        padding: 25px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .skills {
+        gap: 12px;
+    }
+
+}
