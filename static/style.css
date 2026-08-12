@@ -535,3 +535,116 @@ nav a {
     }
 
 }
+/* ===== Professional Home Section ===== */
+
+.hero-content {
+    max-width: 1100px;
+    margin: auto;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+}
+
+.hero-small {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    margin: 10px 0;
+}
+
+.hero-text h1 span {
+    font-weight: bold;
+}
+
+.hero-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    max-width: 550px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 2px solid #111827;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+}
+
+.hero-image {
+    flex: 0 0 auto;
+}
+
+.hero-image .profile {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        min-height: 80vh;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-text h2 {
+        font-size: 23px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image .profile {
+        width: 170px;
+        height: 170px;
+    }
+
+}
