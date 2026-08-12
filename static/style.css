@@ -322,3 +322,44 @@ nav a {
     }
 
 }
+/* Skills Section */
+#skills {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.skill-card {
+    width: 180px;
+    padding: 25px 15px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.skill-card h3 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.skill-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
