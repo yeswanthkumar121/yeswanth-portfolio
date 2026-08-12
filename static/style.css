@@ -160,3 +160,55 @@ button:hover {
 .contact-form button:hover {
     background: #374151;
 }
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav h2 {
+        font-size: 24px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 60px 20px;
+        min-height: auto;
+    }
+
+    .hero {
+        min-height: 85vh;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero h2 {
+        font-size: 23px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .profile {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-form form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+}
